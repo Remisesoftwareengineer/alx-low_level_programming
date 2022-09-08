@@ -1,8 +1,10 @@
-#!/bin/bash
-
-/*
+#include<stdio.h>
+/**
+ * main-print using printf function
+ * 
  * Description: Using main function
- * return: 0
+ * this prints the size of the computer on which they are executed and run on
+ * Return: 0
  */
 
 int main(void)

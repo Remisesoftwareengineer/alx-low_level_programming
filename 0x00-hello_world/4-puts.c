@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
- *C program: it puts out Programming is like building a multilingual puzzle
- *Description: It uses puts to print out word instead of prinf function
- *return: 0
+ * main-print the string in the put function
+ *
+ * Description:using the main function
+ * This program prints "\"Programming is like building a multilingual puzzle"
+ * Return: 0;
  */
 int main(void)
 {

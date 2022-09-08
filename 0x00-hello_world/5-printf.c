@@ -1,9 +1,11 @@
-#!/bin/bash
-
 #include<stdio.h>
-/*
- * Topic: C-program that uses printf function
- * Description: We print out with proper grammar, but the outcome is a piece of art,
+
+/**
+ * main-print in printf function
+ *
+ * Description:using the main function
+ * it prints with proper grammar, but the outcome is a piece of art
+ * Return: 0
  */
 int main(void)
 {

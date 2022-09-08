@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main-print using printf function
  * 
@@ -6,7 +7,6 @@
  * this prints the size of the computer on which they are executed and run on
  * Return: 0
  */
-
 int main(void)
 {
 	char c;

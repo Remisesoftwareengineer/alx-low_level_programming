@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<stdio.h>
 /**
  *C program: it puts out Programming is like building a multilingual puzzle

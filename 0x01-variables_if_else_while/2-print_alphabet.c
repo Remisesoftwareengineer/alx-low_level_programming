@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <mathlib.h>
 
 /**
  * main-Entry point

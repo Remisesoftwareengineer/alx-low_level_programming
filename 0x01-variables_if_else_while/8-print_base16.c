@@ -6,9 +6,12 @@
  */
 int main(void)
 {
+	int i;
 	char alphabet;
-	
-	for (alphabet = 122; alphabet >= 97;alphabet--)
+
+	for (i = 0; i < 10;i++)
+	putchar(i);
+	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
 	putchar(alphabet);
 	putchar('\n');
 	return (0);

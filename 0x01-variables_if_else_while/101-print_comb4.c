@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	int n1 =0, n2, n3;
-
-	while (n1 <=9)
+	int n1 = 0, n2, n3;
+ 
+	while (n1 <= 9)
 	{
 		n2 = 0;
-		
 		while (n2 <= 0)
 		{
 			n3 = 0;
@@ -25,7 +24,7 @@ int main(void)
 					putchar(n2 + 48);
 					putchar(n3 + 48);
 
-					if ( n1 + n2 +n3 != 24)
+					if (n1 + n2 + n3 != 24)
 					{
 						putchar(',');
 						putchar(' ');

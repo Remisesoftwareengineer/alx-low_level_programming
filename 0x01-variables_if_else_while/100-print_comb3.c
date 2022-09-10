@@ -8,17 +8,27 @@
  */
 int main(void)
 {
-	int number;
+	int num1 = 0, num2;
 
-	for (number = 0; number < 90; number++)
+	while (num1 <= 9)
 	{
-		putchar((number / 10) + '0');
-		putchar((number % 10) + '0');
-		if (number != 89)
+		num2 = 0;
+		while (num2 <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+			if (num1 != num2 && num1 < num2)
+			{
+				putchar(num1 + 48);
+				putchar(num2 + 48);
+
+				if (num1 + num2 != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			++num2;
 		}
+		++num1;
 	}
 	putchar('\n');
 	return (0);

@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-	int digit1,dgit2;
+	int number;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (number = 0; number < 100; number++)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		putchar((number / 10) + '0');
+		putchar((number % 10) + '0');
 		{
 			putchar((digit1 % 10) + '0');
 			putchar((digit2 % 10) + '0');
 
-			if (digit1 == 8 && digit2 == 9)
-			continue;
-
-			putchar(' , ');
-			putchar(' ');
+			if (number != 99)
+			{
+				putchar(' , ');
+				putchar(' ');
+			}
 		}
 	putchar('\n');
 	return (0);
-	}
 }

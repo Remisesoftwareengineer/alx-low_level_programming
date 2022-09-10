@@ -8,7 +8,7 @@
 int main(void)
 {
 	int num1 = 0, num2;
-	
+
 	while (num1 <= 99)
 	{
 		num1 = num2;

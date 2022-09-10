@@ -13,12 +13,12 @@ int main(void)
 		putchar((number / 10) + '0');
 		putchar((number % 10) + '0');
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
+			putchar((number % 10) + '0');
+			putchar((number % 10) + '0');
 
 			if (number != 99)
 			{
-				putchar(' , ');
+				putchar(',');
 				putchar(' ');
 			}
 		}

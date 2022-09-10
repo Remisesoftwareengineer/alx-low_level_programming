@@ -27,9 +27,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			++n2;
+			++num2;
 		}
-		++n1;
+		++num1;
 	}
 	putchar('\n');
 	return (0);
